@@ -63,6 +63,9 @@ a:hover{
     font-size: 14px;
     color: #757575;
 }
+i {
+    width:  14px;
+}
 .clear {
   padding-right: 1.3rem;
   color: #c4c4c4e3;
