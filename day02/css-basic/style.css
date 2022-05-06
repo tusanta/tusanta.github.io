@@ -1,0 +1,39 @@
+h2 {
+    color: green;
+    background-color: black;
+    color: brown;
+  }
+  #heading {
+    color: rgb(204, 0, 255);
+    background-color: blueviolet;
+    text-transform: uppercase;
+  }
+  .para {
+    font-style: oblique;
+    color: rgb(127 255 247);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .text-red{
+      color: red;
+      font-size: 30px;
+  }
+
+  .text-center{
+      align-items: center;
+  }.text-uppercase{
+      text-transform: uppercase;
+  }
+  .text-big{
+      font-size: 32px;
+  }
+  h2.text-big.text-red{
+      color: rgb(149, 255, 0);
+  }
+  .box p {
+      color: blueviolet;
+  }
+  .box span{
+      color: brown;
+  }

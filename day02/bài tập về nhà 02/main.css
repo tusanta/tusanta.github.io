@@ -1,0 +1,34 @@
+.body{
+    display: block;
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    width: 600px;
+    height: 800px;
+    color: aliceblue;
+   
+}
+#title{
+    background-color:#30598c;
+    text-align: center;
+    margin: auto;
+}
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+ul.heading{
+    list-style-type: none;
+}
+   footer {
+    line-height: 2.5em;
+    padding: 3rem 0;
+}
+a:hover {
+    text-decoration: underline;
+  color: #919294;
+}
+ul, li {
+  margin: 0;
+  padding: 0 10px 0 10px
+}
