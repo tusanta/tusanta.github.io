@@ -10,13 +10,19 @@ img{
 }
 body {
     font-family:'Roboto', sans-serif;  
-    margin: 30px 0 50px 80px; 
+     
     line-height: 35px;
-    display: block;
+    display: block;  
+}
+#center{
     width: 700px;
-    box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
-    border-radius: 4px;
-   
+    box-shadow:  0 2px 4px  rgb(0 0 0 / 15%);
+    border-radius: 4px; 
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    
+
 }
 .title{
     display: flex;
