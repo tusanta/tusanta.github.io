@@ -22,7 +22,6 @@ img {
     box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
     border-radius: 4px;
     overflow: hidden;
-
     height: 400px;
     position: relative;
     display: flex;
@@ -34,7 +33,6 @@ img {
     left: 0;
     width: 100%;
     height: 100%;
-    
     transition: all 1s;
 }
 .image img{
@@ -42,11 +40,6 @@ img {
     height: 100%;
     object-fit: cover;
 }
-
-
-
-
-
 .content {
     padding: 16px;
     position: relative;
@@ -81,7 +74,7 @@ img {
 }
 
 .info {
-    display: flex;
+   display: flex;
    position: absolute;
    z-index: 3;
    justify-content: space-around;
@@ -147,9 +140,8 @@ img {
     line-height: 1px;
 }
 
-
 .card:hover .pading{
     
-    transform: translateY(-260px);
+  transform: translateY(-260px);
     
 }
