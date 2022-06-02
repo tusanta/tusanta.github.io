@@ -59,7 +59,7 @@ minElement(numMin);
 
 function numberElement(arr) {
 
-    
+
 let numBer = 0;
 for ( let i = 0; i<arr.length; i++){
     numBer+=arr[i];
