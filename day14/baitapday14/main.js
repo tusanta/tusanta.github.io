@@ -34,7 +34,6 @@ function shuffleArray(array) {
 console.log(shuffleArray([1,2,3,4,5]));
 
 
-
 //Bài 3: Viết function để lấy sự phần tử không xuất hiện ở cả 2 mảng
 
 //symmetricDifference([1, 2, 3], [1, 2, 4]) => [3,4]
@@ -55,7 +54,6 @@ function symmetricDifference(str1, str2){
 }
 console.log(symmetricDifference([1, 2, 3], [1, 2, 4]));
 
-// bai 4 kia` :))
 
 //Bài 4: Viết function lấy tất cả các phần tử không trùng nhau trong cả 2 mảng
 
@@ -79,6 +77,5 @@ function union(str1, str2){
 }
 console.log(union([1, 2, 3, 1], [4, 3, 2, 4]));
 console.log(union([1, 2, 3, 2, 3], [1, 2, 3, 1, 2]));
-// sao cai kia no tan 88 ma a k xoa dc lag vc
 
 
