@@ -5,6 +5,8 @@ img {
 max-width: 100%;
 display: block;
 margin: auto;
+transform: translate(500px);
+transition: all 1s;
 }
 .card {
     width: 320px;
@@ -15,6 +17,9 @@ margin: auto;
 }
 .content{
     padding: 16px;
+
+    transform: translate(-500px);
+    transition: all 5s;
 }
 .content h2 {
     font-size: 19px;
@@ -28,4 +33,16 @@ margin: auto;
 }
 .content p span {
     color: #ffd600;
+}
+
+.card:hover .content{
+    transform: translate(0);   
+}
+.card:hover img{
+    transform: translate(0);
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
 }

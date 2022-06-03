@@ -1,0 +1,81 @@
+
+.box{
+position: relative;
+width: 800px;
+height: 600px;
+background-color: rgb(230, 132, 115);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+img{
+    max-width: 100%;
+    height: 200px;
+}
+#heart{
+font-size: 300px;
+
+position: absolute;
+animation: zoom 1.5s infinite;
+z-index: 1;
+}
+#pading{
+    font-size: 200px;
+    
+    animation: shadow-zoom 1.5s infinite;
+    animation-fill-mode: forwards;
+    position: absolute;
+    opacity: 0;
+}
+@keyframes shadow-zoom{
+0% {
+    transform: scale(0);
+    opacity: 0;
+}
+70% {
+    transform: scale(1.0);
+    opacity: 0.1;
+}
+73% {
+    transform: scale(1.4);
+    opacity: 0.08;
+}
+76% {
+    transform: scale(1.6);
+    opacity: 0.06;
+}
+79% {
+    transform: scale(1.8);
+    opacity: 0.04;
+}
+82% {
+    transform: scale(2);
+    opacity: 0.02;
+}
+85% {
+    transform: scale(2.2);
+    opacity: 0.01;
+}
+}
+@keyframes zoom{
+0% {
+    font-size: 200px;
+ 
+}
+40% {
+    font-size: 300px;
+   
+}
+50% {
+    font-size: 300px;
+   
+}
+70% {
+    font-size: 200px;
+   
+}
+100% {
+    font-size: 200px;
+   
+}
+}

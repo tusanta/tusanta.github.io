@@ -1,0 +1,66 @@
+.banner{
+    background-color: black;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+.banner h2{
+    position: relative;
+    left: -400px;
+    opacity: 0;
+    animation: fade 2s forwards;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+@keyframes fade {
+    0%{
+        left: -400px;
+        opacity: 0;
+    }
+    100%{
+        left: 0;
+        opacity: 1;
+    }
+
+}
+.banner p{
+    position: relative;
+    right: -400px;
+    opacity: 0;
+    animation: node 2s forwards;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+@keyframes node {
+    0%{
+        right: -400px;
+        opacity: 0;
+    }
+    100%{
+        right: 0;
+        opacity: 1;
+    }
+}
+.banner button{
+    position: relative;
+    right: -100px;
+    opacity: 0;
+    animation: button 2s forwards;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+@keyframes button {
+    0%{
+        bottom: -100px;
+        opacity: 0;
+    }
+    100%{
+        
+        color: red;
+        bottom: 0;
+        opacity: 1;
+        
+    }
+}

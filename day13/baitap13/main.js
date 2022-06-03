@@ -60,21 +60,18 @@ minElement(numMin);
 function numberElement(arr) {
 
 
-let numBer = 0;
+let numBer = [];
+
 for ( let i = 0; i<arr.length; i++){
-    numBer+=arr[i];
-    if(arr[i] % i == 0){
-        return 0;
-    } else{
-        return 1;
-    }
-    
+    numBer.push(arr[i]%2);
+
 }
 
- console.log(numBer)
+ return numBer;
        
 }
- numberElement([4,2,5,6,2,7]);
+ let num =[4,2,5,6,2,7];
+ console.log(numberElement(num));
 
 
 
@@ -87,7 +84,17 @@ function text(str){
     return  str.repeat(10);
     
 }
-  console.log(text("hello wolrd"));
+  console.log(text("hello"));
+
+/// bài chữa
+
+
+
+  function textNUmber(ar , num){
+
+  }
+
+
 
 // Bài 5: Cho 1 chuỗi, hãy viết hàm có tác dụng sao chép đó chuỗi lên 10 lần, ngăn cách nhau bởi dấu gạch ngang.
 
@@ -104,4 +111,5 @@ function repeatString(str){
       console.log(repeatString("hello"));
 
 
+/// bài chữa
 

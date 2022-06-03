@@ -36,6 +36,47 @@ header {
     display: flex;
     align-items: center;
 }
+/* ***name* */
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #464646;
+    font-size: 20px;
+
+
+}
+.name-1{
+    transform: translate(-600px);
+    animation-name: name-1;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+
+}
+.name-2{
+    transform: translate(600px);
+    animation-name: name-2;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+@keyframes name-1 {
+    0%{
+        transform: translate(600px);
+    }
+    100%{
+        transform: translate(-20px);
+    }
+}
+@keyframes name-2 {
+    0%{
+        transform: translate(-600px);
+    }
+    100%{
+        transform: translate(20px);
+    }
+}
+
+
 
 /* style menu */
 .menu > ul {
@@ -203,6 +244,9 @@ height: 320px;
     display: flex;
     z-index: 3;
     margin-left: 1400px;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-name: messenger;
     
 
     
@@ -210,12 +254,127 @@ height: 320px;
 
 .messenger {
     position: fixed;
-    bottom: 100px;
+    bottom: 50px;
     right: 10px;
+    -webkit-animation: pulsate-fwd 0.5s ease-in-out infinite both;
+	        animation: pulsate-fwd 0.5s ease-in-out infinite both;
     
+}
+.phone span{
+    color: blue;
+    font-size: 70px;
+    display: flex;
+    z-index: 3;
+    margin-left: 1000px;
+    animation-name: phone;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    
+}
+.phone{
+    position: fixed;
+    bottom: 150px;
+    right: 10px;
+    -webkit-animation: shake-bottom 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+    animation: shake-bottom 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
 }
 
 
+@-webkit-keyframes phone {
+  0%,
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+  }
+  10% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: rotate(-4deg);
+            transform: rotate(-4deg);
+  }
+  30%,
+  50%,
+  70% {
+    -webkit-transform: rotate(4deg);
+            transform: rotate(4deg);
+  }
+  80% {
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+  }
+  90% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+}
+@keyframes phone {
+  0%,
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+  }
+  10% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: rotate(-4deg);
+            transform: rotate(-4deg);
+  }
+  30%,
+  50%,
+  70% {
+    -webkit-transform: rotate(4deg);
+            transform: rotate(4deg);
+  }
+  80% {
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+  }
+  90% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+}
+
+@-webkit-keyframes messenger{
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    50% {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes messenger {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    50% {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+}
 /* ***footer* */
 footer{
     display: flex;

@@ -26,11 +26,14 @@ checkStringExist("i love you", "love");
 //shortenString("hello’) => “hello”
 
 function shortenString(str3){
-    let res = str3.slice(0,8);
-    console.log(`${res}...`)
+    if(str3.length>8){
+    return str3.slice(0,8) + "...";
+    }
+    return str3;
+    
 }
-shortenString("xin chào các bạn");
-shortenString("hello");
+console.log(shortenString("xin chào các bạn"));
+console.log(shortenString("hello"));
 
 //Bài 3. Viết function truyền vào 1 chuỗi, kiểm tra xem chuỗi đó có phải chuỗi đối xứng hay không (chuỗi đối xứng là chuỗi đọc xuôi hay ngược đều như nhau, không tính khoảng trắng, không phân biệt hoa thường), kết quả trả về true hoặc false.
 
@@ -76,9 +79,9 @@ doiXung("hello world");
 function stringOne(str5){
 let strLower = str5.toLowerCase(str5).replace(/ /g, "_");
 
-     
-console.log(strLower)
+     return strLower;
+
 
 }
-stringOne("HELLO WOLRD");
-stringOne("XIN CHÀO CÁC BẠN")
+console.log(stringOne("HELLO WOLRD"));
+console.log(stringOne("XIN CHÀO CÁC BẠN"));

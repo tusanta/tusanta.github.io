@@ -1,0 +1,12 @@
+h1{
+    animation-name: fadeInLeft;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite
+} 
+h2{
+    animation-name:flipInX;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite
+}
