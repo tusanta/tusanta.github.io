@@ -219,7 +219,7 @@
   -Xóa phần tử đầu tiên trong mảng
 
 
-- every():
+- every(): 
 
 
   -dùng để kiểm tra trả về true nếu tất cả element đều thoả mản điều kiện của callback function, ngược lại trả về false nếu có ít nhất một element không thoả màn điều kiện.

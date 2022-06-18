@@ -64,12 +64,12 @@ console.log(shuffleArray([1, 2, 3, 4, 5]));
 function symmetricDifference(str1, str2) {
   p = [];
   for (let i = 0; i < str1.length; i++) {
-    if (!str2.includes(str1[i])) {
+    if (str2.includes(str1[i]) == false) {
       p.push(str1[i]);
     }
   }
   for (let i = 0; i < str2.length; i++) {
-    if (!str1.includes(str2[i])) {
+    if (str1.includes(str2[i]) == false) {
       p.push(str2[i]);
     }
   }
