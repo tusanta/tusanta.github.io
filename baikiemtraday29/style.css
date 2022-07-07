@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #222;
+}
+
+img {
+    max-width: 100%;
+}
+
+.image img{
+    width: 100%;
+    position: relative;
+}
+.title{
+    position: absolute;
+}
+.para{
+    background: white;
+    margin-top: -90px;
+    margin-left: 70px;
+    width: 387px;
+    height: 129px;
+    font-size: 30px;
+}
+
+.title .item{
+    
+    background-color: white;
+    width: 133px;
+    height: 48px;
+    position: absolute;
+    margin-top: -114px;
+    margin-left: 70px;
+}
+.number{
+    color: #EF5D64;
+    font-size: 50px;
+}
+.info{
+    margin-left: 82px;
+    width: 422px;
+}
+.button-service{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.input-service img{
+   
+Width: 38px;
+Height: 38px;
+background-color: white
+   
+}
+.input-service{
+    background-color: white;
+    width: 693px;
+    height: 81px;
+    margin-left: 300px;
+}
+input{
+    border: none;
+
+   
+}
+.input-group-text{
+    background: white;
+    
+   
+}
+
+.form-control{
+    border-left: 0;
+    
+}
+
+.footer{
+    border-width: 3px;
+}
+.d-flex p{
+    margin: 20px;
+}
+
+.button-service button{
+    background: white;
+    width: 152px;
+    height: 60px;
+}
+.button-service button span{
+    font-size: 20px;
+
+}
+.img-number img{
+    margin-left: 20px;
+}
+@media (max-width:1068px) {
+    .info p{
+        font-size: 16px;
+    }
+    .input-service{
+        margin-left: 100px;
+        width: 593px;
+    }
+}
+@media (max-width:778px) {
+
+    .input-service{
+        margin-left: 100px;
+        width: 393px;
+    }
+    .info p{
+        margin-left:  0;
+        padding: 0;
+    }
+}
+@media (max-width:576px) {
+
+    .input-service{
+        margin-left: 50px;
+        width: 293px;
+    }
+    .info p{
+        margin-left:  0;
+        padding: 0;
+    }
+}
